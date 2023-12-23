@@ -1,0 +1,137 @@
+#rest,#rest1,#rest2,#rest3,#rest4,#rest5,#rest6,#rest7,#rest8,#rest9{
+    color: rgb(243, 175, 47);
+}
+
+#Nikk:hover {
+    color: orange;
+}
+#Nikk1:hover {
+    color: orange;
+}
+#Nikk2:hover {
+    color: orange;
+}
+#Nikk3:hover {
+    color: orange;
+}
+#Nikk4:hover {
+    color: orange;
+}
+#Nikk5:hover {
+    color: orange;
+}
+#Nikk6:hover {
+    color: orange;
+}
+#restuarant:hover {
+    background-color: rgb(243, 177, 54);
+    color: white;
+}
+#restuarant1:hover {
+    background-color: rgb(243, 177, 54);
+    color: white;
+}
+#restuarant2:hover {
+    background-color: rgb(243, 177, 54);
+    color: white;
+}
+
+
+
+#event {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/events-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#chefs {
+    background: linear-gradient(rgba(238, 228, 228, 0.6), rgba(231, 225, 225, 0.7)), url(../images/chefs-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#owner {
+    background: url(../images/testimonials-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#img {
+    width: 15%;
+
+}
+
+#footer1{
+    background: linear-gradient(rgba(22, 17, 17, 0.4), rgba(12, 1, 1, 0.5)), url(../images/banner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+@media only screen and (max-width:576px){
+
+    #slideimg1,#slideimg2,#slideimg3{
+        height: 70vh;
+    }
+
+    #main1 {
+        margin: 0px 0px 170px 0px;
+        
+    }
+    #main2 {
+        margin: 0px 0px 170px 0px;
+        
+    }
+    #main3 {
+        margin: 0px 0px 155px 0px;
+        
+    }
+   
+}
+@media only screen and (min-width:768px){
+    
+    #main1 {
+        margin: 0px 0px 50px 0px;
+        
+    }
+    #main2 {
+        margin: 0px 0px 50px 0px;
+        
+    }
+    #main3 {
+        margin: 0px 0px 50px 0px;
+        
+    }
+    
+    #video1 {
+        width: 100%;
+        height: 460px;
+    }
+    #map {
+        width: 100%;
+        height: 350px;
+    }
+}
+@media only screen and (min-width:992px) {
+
+    #main1 {
+        margin: 0px 0px 150px 0px;
+    }
+    #main2 {
+        margin: 0px 0px 150px 0px;
+    }
+    #main3 {
+        margin: 0px 0px 150px 0px;
+    }
+
+    #video1 {
+        width: 90%;
+        height: 460px;
+    }
+
+    #map {
+        width: 100%;
+        height: 350px;
+    }
+}
